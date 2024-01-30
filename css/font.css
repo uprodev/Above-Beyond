@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'Nimbus Sans';
+  src: url('../fonts/NimbusSanD-ReguExte.woff2') format('woff2'),
+  url('../fonts/NimbusSanD-ReguExte.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Nimbus Sans';
+  src: url('../fonts/NimbusSanD-BoldExte.woff2') format('woff2'),
+  url('../fonts/NimbusSanD-BoldExte.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nimbus Sans';
+  src: url('../fonts/NimbusSanD-BlacExte.woff2') format('woff2'),
+  url('../fonts/NimbusSanD-BlacExte.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tusker Grotesk';
+  src: url('../fonts/TuskerGrotesk-5700Bold.woff2') format('woff2'),
+  url('../fonts/TuskerGrotesk-5700Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Ink Free';
+  src: url('../fonts/InkFree.woff2') format('woff2'),
+  url('../fonts/InkFree.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  src: url('../fonts/DMSans-Medium.woff2') format('woff2'),
+  url('../fonts/DMSans-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  src: url('../fonts/DMSans-Bold.woff2') format('woff2'),
+  url('../fonts/DMSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
