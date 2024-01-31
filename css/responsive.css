@@ -628,7 +628,10 @@
     height: 250px; }
 
   .projects-info .img-wrap-2x figure + figure {
-    margin-top: 20px; } }
+    margin-top: 20px; }
+
+  .contact .input-wrap-text textarea {
+    height: 65px; } }
 @media (max-width: 575px) {
   .content-width {
     width: 100%;

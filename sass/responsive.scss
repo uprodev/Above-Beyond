@@ -646,6 +646,9 @@ $font2: 'Tusker Grotesk',sans-serif;
   .projects-info .img-wrap-2x figure + figure{
     margin-top: 20px;
   }
+  .contact .input-wrap-text textarea {
+    height: 65px;
+  }
 }
 
 @media (max-width:575px) {

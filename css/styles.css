@@ -146,7 +146,7 @@ header {
       .top-menu ul li a:hover:after {
         -webkit-transform: scaleX(1);
                 transform: scaleX(1); }
-  .top-menu ul .current-item a:after {
+  .top-menu ul .current-item a:after, .top-menu ul .current-menu-item a:after {
     -webkit-transform: scaleX(1);
             transform: scaleX(1); }
 
@@ -764,6 +764,7 @@ footer {
   .form-footer .input-wrap button {
     width: 66px;
     height: 66px;
+    min-width: 66px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -795,6 +796,8 @@ footer {
     font-weight: 700;
     color: #F0F0EF;
     background: transparent; }
+  .form-footer .input-wrap span input {
+    min-width: 100%; }
   .form-footer .input-wrap input::-webkit-input-placeholder {
     color: #F0F0EF; }
   .form-footer .input-wrap input::-moz-placeholder {
@@ -1130,6 +1133,9 @@ footer {
     opacity: 0; }
 
 .menu-responsive .mob-menu-land > ul > li.current-item a:after {
+  opacity: 1; }
+
+.menu-responsive .mob-menu-land > ul > li.current-menu-item a:after {
   opacity: 1; }
 
 /*---------------------------END-SERVICES-PAGE----------------------------*/
@@ -1674,5 +1680,10 @@ footer .item-1 ul li {
 footer .item-1 ul {
   margin-bottom: 30px; }
 
+.contact .input-wrap-text textarea {
+  height: 50px;
+  padding: 11px 15px; }
+
 /*---------------------------END-CONTACT-PAGE----------------------------*/
+
 /*# sourceMappingURL=styles.css.map */

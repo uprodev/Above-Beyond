@@ -162,7 +162,7 @@ header{
         }
       }
     }
-    .current-item{
+    .current-item, .current-menu-item {
       a{
         &:after{
           transform: scaleX(1);
@@ -799,6 +799,7 @@ footer{
     button{
       width: 66px;
       height: 66px;
+      min-width: 66px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -826,6 +827,9 @@ footer{
       font-weight: 700;
       color: $accent;
       background: transparent;
+    }
+    span input{
+      min-width: 100%;
     }
     input::-webkit-input-placeholder {
       color: $accent;
@@ -1210,6 +1214,9 @@ footer{
   }
 }
 .menu-responsive .mob-menu-land > ul > li.current-item a:after{
+  opacity: 1;
+}
+.menu-responsive .mob-menu-land > ul > li.current-menu-item a:after{
   opacity: 1;
 }
 /*---------------------------END-SERVICES-PAGE----------------------------*/
@@ -1804,5 +1811,10 @@ footer .item-1 ul li{
 }
 footer .item-1 ul{
   margin-bottom: 30px;
+}
+
+.contact .input-wrap-text textarea{
+  height: 50px;
+  padding: 11px 15px;
 }
 /*---------------------------END-CONTACT-PAGE----------------------------*/
