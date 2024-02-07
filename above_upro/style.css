@@ -1,0 +1,113 @@
+/*   
+Theme Name: Above & Beyond
+*/
+
+.about-banner figure .item img{
+  height: auto;
+}
+
+figure img{
+  height: auto;
+}
+
+footer .wpcf7-not-valid-tip{
+  position: absolute;
+  top: 105%;
+  left: 0;
+  font-size: 12px;
+}
+
+.wpcf7 form .wpcf7-response-output {
+  margin: 2em 0.5em 1em;
+  padding: 0.2em 1em;
+  border: 2px solid #00a0d2;
+  background: #00a0d2;
+  color: #fff;
+  font-size: 12px;
+  line-height: normal;
+  border-radius: 5px;
+}
+
+.wpcf7 form.sent .wpcf7-response-output {
+  border-color: #46b450;
+  background: #46b450;
+}
+
+.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output, .wpcf7 form.payment-required .wpcf7-response-output {
+  border-color: #ffb900;
+  background: #ffb900;
+}
+
+
+.btn-pink:hover{
+  color: #fff;
+}
+.about-banner .btn-border:hover img, .projects .btn-border:hover img, .services .btn-border:hover img{
+  filter: invert(1);
+}
+
+.contact .wpcf7-not-valid-tip{
+  font-size: 12px;
+  color: #fff;
+}
+.js-marquee, .js-marquee-wrapper{
+  display: flex;
+}
+
+.projects .line p {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: "Tusker Grotesk", sans-serif;
+  -webkit-text-stroke: 1px #F0F0EF;
+  color: transparent;
+  padding-right: 6px;
+}
+
+.projects .line .white {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: "Tusker Grotesk", sans-serif;
+  -webkit-text-stroke: inherit;
+  color: #fff;
+}
+
+@media (max-width: 575px){
+  .text-img .text-vertical{
+    display: none;
+  }
+  .text-img .text{
+    padding: 0;
+  }
+  .content-width {
+    padding: 0 15px; }
+  .superpowers .item .wrap {
+    padding: 30px 30px;
+  }
+  footer .content{
+    padding: 0 15px 50px;
+  }
+  .pre-footer .content .bg:after {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .menu-responsive .wrap{
+    width: 100%;
+    height: 100vh;
+  }
+  .services-banner figure{
+    display: none;
+  }
+  .projects .item .btn-wrap{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .projects .item .btn-wrap .btn-border{
+    margin-bottom: 0;
+    margin-right: 20px;
+    padding: 0 15px;
+  }
+}
