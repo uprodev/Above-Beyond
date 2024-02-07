@@ -1405,13 +1405,24 @@ footer{
     position: relative;
     display: inline-block;
     margin-bottom: 98px;
-    &>p{
+    p{
       font-size: 36px;
       font-style: normal;
       font-weight: 400;
       line-height: normal;
       font-family: $font2;
-
+      -webkit-text-stroke: 1px $accent;
+      color: transparent;
+      padding-right: 6px;
+    }
+    .white{
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      font-family: $font2;
+      -webkit-text-stroke: inherit;
+      color: #fff;
     }
     .before{
       position: absolute;
@@ -1421,16 +1432,7 @@ footer{
       display: flex;
       justify-content: flex-end;
       min-width: fit-content;
-      p{
-        font-size: 36px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        font-family: $font2;
-        -webkit-text-stroke: 1px $accent;
-        color: transparent;
-        padding-right: 6px;
-      }
+
     }
     .after{
       position: absolute;
@@ -1816,5 +1818,9 @@ footer .item-1 ul{
 .contact .input-wrap-text textarea{
   height: 50px;
   padding: 11px 15px;
+}
+
+.js-marquee, .js-marquee-wrapper{
+  display: flex;
 }
 /*---------------------------END-CONTACT-PAGE----------------------------*/

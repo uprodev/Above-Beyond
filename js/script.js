@@ -30,6 +30,16 @@ jQuery(document).ready(function ($) {
     startVisible: true,
   });
 
+  $('.projects .line').marquee({
+    duration: 55000,
+    gap:0,
+    delayBeforeStart: 0,
+    direction: 'left',
+    duplicated: true,
+    loop:true,
+    startVisible: true,
+  });
+
   //slider
   var swiperTestimonials = new Swiper(".slider-testimonials", {
     spaceBetween: 30,
@@ -99,5 +109,13 @@ jQuery(document).ready(function ($) {
       });
     }
 
+  });
+
+  //scroll to block
+  $(document).on('click', '.scroll', function (e) {
+    e.preventDefault();
+    var id  = $(this).attr('href'),
+      top = $(id).offset().top;
+    $('body,html').animate({scrollTop: top}, 1000);
   });
 });
